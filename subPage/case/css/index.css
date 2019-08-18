@@ -1,0 +1,218 @@
+header {
+  height: 647px;
+  width: 100%;
+  background: url(../images/s5ab5e83cd7168.jpg);
+  position: relative;
+}
+header .title {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  margin-top: -40px;
+  width: 234px;
+}
+header .title .fu {
+  overflow: hidden;
+}
+header .title .fu .qwe {
+  height: 8px;
+  width: 0;
+  margin-left: 234px;
+  background-color: #27bec9;
+  opacity: 0;
+}
+header .title h1 {
+  font-size: 60px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 200px;
+  opacity: 0;
+}
+header .logo {
+  width: 177px;
+  height: 90px;
+  background: url(../images/s5ab37e760fd26.png) no-repeat;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: block;
+}
+header .dhl {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+header .dhl a {
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  float: left;
+  width: 72px;
+  opacity: 0;
+  height: 23px;
+  text-align: center;
+  line-height: 23px;
+}
+header .dhl .yin {
+  text-shadow: 2px 2px 8px #222;
+}
+header span {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.banner {
+  width: 100%;
+}
+.banner div {
+  width: 25%;
+  height: 342px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+.banner div a {
+  position: absolute;
+}
+.banner div a span {
+  display: block;
+  width: 102%;
+  height: 102%;
+  background-color: #000;
+  opacity: .4;
+}
+.banner div:nth-child(1) a {
+  background: url(../images/pic27.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(2) a {
+  background: url(../images/pic28.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(3) a {
+  background: url(../images/pic29.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(4) a {
+  background: url(../images/pic30.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(5) a {
+  background: url(../images/pic31.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(6) a {
+  background: url(../images/pic32.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(7) a {
+  background: url(../images/pic33.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(8) a {
+  background: url(../images/pic34.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(9) a {
+  background: url(../images/pic35.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(10) a {
+  background: url(../images/pic36.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(11) a {
+  background: url(../images/pic37.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner div:nth-child(12) a {
+  background: url(../images/2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 102%;
+  height: 102%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

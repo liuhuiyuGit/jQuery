@@ -1,0 +1,64 @@
+/* 样式初始化 
+	1. 将标签中的默认样式去掉
+	2. 给标签设置基本的统一样式(文字大小，文字字体，文字颜色，浮动，版心，清除浮动。。。)
+*/
+
+body {
+	background-color: #fff;
+}
+
+body,p,ul,ol,dl,h1,h2,h3,h4,h5,h6,dd {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/* 设置基本的统一样式 */
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #050505;
+}
+
+a {
+	text-decoration: none;
+	color: #050505;
+}
+
+input,img {
+	/* 去掉边框 */
+	border: 0 none;
+	/* 去掉轮廓线 */
+	outline-style: none;
+	/* display: block; */
+	vertical-align: middle;
+	padding: 0;
+} 
+
+/* 版心 */
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/* 清除浮动 
+	伪元素可以使用双冒号或者单冒号
+*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
+

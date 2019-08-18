@@ -1,0 +1,59 @@
+footer {
+  height: 387px;
+  width: 100%;
+  background-color: #1f323f;
+  padding: 0 185px;
+  box-sizing: border-box;
+  float: left;
+}
+footer .nei {
+  height: 207px;
+  width: 100%;
+  margin: 90px 0;
+}
+footer .nei h2 {
+  font-size: 60px;
+  color: #27bec9;
+}
+footer .nei .left1 {
+  width: 30%;
+  float: left;
+  margin-right: 155px;
+}
+footer .nei .left1 p {
+  color: #fff;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+footer .nei .left1 em {
+  color: #fff;
+  line-height: 150%;
+}
+footer .nei .left1 span {
+  display: block;
+  line-height: 150%;
+  color: #fff;
+}
+footer .nei .center1 {
+  width: 30%;
+  float: left;
+  margin-right: 100px;
+}
+footer .nei .center1 p {
+  color: #fff;
+  line-height: 150%;
+}
+footer .nei .center1 p:nth-child(5) {
+  margin-top: 10px;
+}
+footer .nei .center1 p:nth-child(5) img {
+  margin-right: 5px;
+}
+footer .nei .right1 {
+  float: left;
+}
+footer .nei .right1 h3 {
+  font-size: 38px;
+  color: #fff;
+  font-weight: 400;
+}

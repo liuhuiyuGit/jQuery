@@ -1,0 +1,160 @@
+header {
+  height: 647px;
+  width: 100%;
+  background: url(../images/s5ab5e83cd7168.jpg);
+  position: relative;
+}
+header .title {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  margin-top: -40px;
+  width: 234px;
+}
+header .title .fu {
+  overflow: hidden;
+}
+header .title .fu .qwe {
+  height: 8px;
+  width: 0;
+  margin-left: 234px;
+  background-color: #27bec9;
+  opacity: 0;
+}
+header .title h1 {
+  font-size: 60px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 200px;
+  opacity: 0;
+}
+header .logo {
+  width: 177px;
+  height: 90px;
+  background: url(../images/s5ab37e760fd26.png) no-repeat;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: block;
+}
+header .dhl {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+header .dhl a {
+  font-size: 16px;
+  color: #fff;
+  padding: 0 20px;
+  margin-right: 0px;
+  opacity: 0;
+  height: 20px;
+  line-height: 20px;
+  height: 21px;
+  width: 52px;
+}
+header .dhl .yin {
+  text-shadow: 2px 2px 8px #222;
+}
+header span {
+  font-size: 30px;
+  color: #fff;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.jian {
+  padding-top: 100px;
+  height: 250px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.jian h3 {
+  font-size: 30px;
+  text-align: center;
+  color: #474747;
+}
+.jian h2 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  color: #474747;
+  margin-bottom: 5px;
+}
+.jian p {
+  font-size: 12px;
+  text-align: center;
+  color: #474747;
+  line-height: 22px;
+}
+.dian {
+  width: 100%;
+  height: 900px;
+  margin-top: 55px;
+  position: relative;
+}
+.dian .nao {
+  background: url(../images/pc.png) no-repeat;
+  width: 900px;
+  height: 718px;
+  margin: 0 auto;
+  position: relative;
+}
+.dian .tub {
+  height: 470px;
+  width: 830px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  overflow: hidden;
+}
+.dian .tub .tu1 {
+  height: 875px;
+  width: 830px;
+  background: url(../images/s5c80d75619934.jpg) no-repeat;
+  position: absolute;
+  top: 0;
+}
+.dian .ji {
+  width: 194px;
+  height: 420px;
+  background: url(../images/phone.png) no-repeat;
+  position: absolute;
+  right: 0;
+  right: 420px;
+  bottom: 198px;
+}
+.dian .ji .tu3 {
+  height: 304px;
+  width: 171px;
+  background: url(../images/s5c80d75b571f1.jpg) no-repeat;
+  background-size: cover;
+  left: 12px;
+  top: 49px;
+  position: absolute;
+}
+.dian .niu {
+  font-size: 14px;
+  color: #fff;
+  background-color: #27bec9;
+  text-align: center;
+  width: 210px;
+  height: 42px;
+  line-height: 42px;
+  border-radius: 26px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 100px;
+}
+.dian .niu:hover {
+  background-color: #2dd3df;
+  transition: .3s all;
+  box-shadow: 0px 3px 5px #ccc;
+}
+.da {
+  width: 100%;
+}
+.da img {
+  width: 100%;
+}

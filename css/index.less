@@ -1,0 +1,482 @@
+body,ul,ol,li{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+li{
+
+
+    list-style: none;
+}
+
+img{
+
+    display: block;
+}
+
+a{
+    background: none;
+    text-decoration: none;
+    color: white;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    visibility:hidden;
+
+    clear: both;
+    height: 0;
+    line-height: 0;
+
+    
+
+
+
+}
+.clearfix{
+    zoom:1
+}
+
+
+
+
+// 轮播图区域
+@media screen and (max-width:640px){
+
+   
+    html{
+        font-size: 64px!important;
+    }
+   
+   }
+
+
+@media screen and (max-width:1919px){
+
+   
+ html{
+     font-size: 1920rem/192;
+ }
+
+}
+@media screen and (min-width:1920px){
+
+   
+    html{
+        font-size: 192px!important;
+    }
+   
+   }
+   @media screen and (max-width:800px){
+
+   
+    html{
+        .lis{
+           
+           
+            
+           
+     
+            li{
+     
+     
+              position: relative;  
+             float: left;
+             width: 50%;
+             height: 692rem/192;
+             
+            }
+
+
+
+
+    }
+    
+    .glopicbot{
+
+
+        width: 100%;
+    }
+    .tupian{
+    
+        width: 100%;
+        height: 817rem/192;
+        background: url("../images/bg2a.jpg") no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+   
+   }
+
+   }
+
+
+
+
+
+.great{
+
+   width: 1920rem/192;
+    margin: 0 auto;
+   
+}
+
+
+.banner{
+   
+    height:890rem/192;
+    position: relative;
+}
+
+
+.indlogo{
+  width: 143rem/192;
+  height: 82rem/192;
+    position: absolute;
+    left: 40rem/192;
+    top:50rem/192;
+    z-index: 6;
+    img{
+
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.indnumber{
+
+    position: absolute;
+    font-size: 45rem/192;
+    right: 20rem/192;
+    top:35rem/192;
+
+
+}
+.pics{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    
+}
+.pics li{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+   
+    display: none;
+
+}
+.pics .current{
+
+    display: block;
+}
+
+.pics img{
+    width: 100%;
+//   
+    height:890rem/192;
+    margin: 0 auto;
+
+}
+
+// 小圆点
+.circle{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 50rem/192;
+    z-index: 5;
+   
+
+}
+
+.circle li{
+    width: 20rem/192;
+    height: 20rem/192;
+    background-color:white;
+
+    float: left;
+    margin: 0 10rem/192;
+    border-radius: 50%;
+}
+.circle li:first-child{
+
+
+    background-color:#00f0ff ;
+}
+
+.vector{
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 35rem/192;
+    width:400rem/192;
+    z-index: 4;
+    li{
+     height: 48rem/192;
+     width: 92rem/192;
+    //  margin: 0 100rem/192;
+    img{
+        width: 100%;
+        height: 100%;
+
+    }
+    }
+   .lli{
+
+
+
+    float: left;
+    
+   }
+   .rli{
+       float: right;
+   
+
+   }
+
+
+
+
+}
+.nav{
+    position: absolute;
+    right:0;
+    top: 50rem/192;
+    z-index: 5;
+    font-size: 20rem/192;
+    opacity: 0;
+    li{
+        height: 25rem/192;
+        line-height: 30rem/192;
+        float: left;
+        margin-right: 80rem/192;
+        font-size: 26rem/192;
+       
+        :hover{
+
+            font-size: 30rem/192;
+             text-shadow:   6rem/192  4rem/192  8rem/192 rgba(0,0,0,0.5);
+        }
+
+    }
+    li:last-child{
+         margin-right: 140rem/192;
+    }
+    
+    
+
+   
+
+
+}
+
+
+   .lis{
+       width: 100%;
+       background-color: black;
+      
+       
+      
+
+       li{
+
+
+         position: relative;  
+        float: left;
+        width: 25%;
+        height: 346rem/192;
+        opacity: 0.6;
+        overflow: hidden;
+       
+        img{
+            position: absolute;
+            left: 0;
+            top:0;
+            width: 100%;
+            height: 100%;
+        }
+
+        :hover img{
+
+            width: 120%;
+            height: 120%;
+            left: 50%;
+            top:50%;
+            transform: translate(-50%,-50%)
+        }
+
+   
+    }
+    
+
+
+
+   }
+//下半部分左侧图区
+.glopicbot{
+
+
+    width: 100%;
+}
+.tupian{
+
+    width: 50%;
+    height: 817rem/192;
+    background: url("../images/bg2a.jpg") no-repeat;
+    background-size: 100%;
+    position: relative;
+    
+
+    .opcircle{
+
+        position: absolute;
+        width: 490rem/192;
+        height: 490rem/192;
+        left: 50%;
+        
+        top: 50%;
+        transform: translate(-50%,-50%);
+        img{
+
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+    }
+}
+.wcircle{
+    
+    position: absolute;
+    width: 593rem/192;
+    height: 593rem/192;
+    left: 50%;
+   
+    top: 50%;
+    transform: translate(-50%,-50%);
+    // background-color:rgba(0,0,0,0.3);
+
+    
+
+    div{
+        position: absolute;;
+        background-color: #fff;
+        border-radius: 50%;
+        text-align: center;
+        transform: translate(-50%,-50%);
+        width: 60rem/192;
+        height: 60rem/192;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+        opacity: 0;
+        font-size: 12rem/192;
+         line-height: 20rem/192;
+        
+
+        a{
+           
+            white-space: nowrap;
+            position: absolute;
+            left: 50%;
+           
+            top: 50%;
+            transform: translate(-50%,-50%);
+            
+            color: #339aca;
+            
+             
+        }
+
+
+    }
+  
+    div:nth-child(1){
+
+       
+        left:100rem/192;
+        top:192rem/192;
+       
+    }
+   
+    div:nth-child(2){
+       
+
+       
+        left:395rem/192;
+        top:225rem/192;
+        
+
+       
+    }
+    div:nth-child(3){
+       
+
+       
+        left:500rem/192;
+        top:100rem/192;
+        
+
+       
+    }
+    div:nth-child(4){
+       
+
+       
+        left:154rem/192;
+        top:470rem/192;
+        
+
+       
+    }
+    div:nth-child(5){
+       
+
+       
+        left:20rem/192;
+        top:400rem/192;
+        width: 0;
+        height: 0;
+        
+
+       
+    }
+    div:nth-child(6){
+       
+
+       
+       
+        
+        left:460rem/192;
+       
+        top:520rem/192;
+        
+
+       
+    }
+    div:nth-child(7){
+       
+
+       width: 0;
+        left:590rem/192;
+        top:340rem/192;
+        height: 0;
+
+        
+
+       
+    }
+
+
+    
+
+
+}
+
+

@@ -1,0 +1,267 @@
+/*
+ * 回呼中间页 -- pc
+ * 2015-4-3 zhaiwanli(zhaiwanli@baidu.com)
+ * 2015-4-21 huangjing(huangjing02@baidu.com)
+ */
+ * {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, "Microsoft YaHei", sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+.header {
+    border-bottom: 2px solid #2878d5;
+}
+.headerCon {
+    width: 826px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.container {
+    width: 826px;
+    margin: 42px auto 0;
+}
+.container-in {
+    width: 826px;
+}
+.rightWrap {
+    width: 100%;
+    float: left;
+    background: #f2f2f2;
+    overflow: hidden;
+    position: relative;
+}
+.leftWrap {
+    width: 100%;
+    background: #e9e9e9;
+    float: left;
+    position: relative;
+    right: 483px; /*此值等于Content的宽度*/
+}
+.cpy-box {
+    float: left;
+    width: 343px;
+    overflow: hidden;
+    position: relative;
+    left: 483px;
+}
+.lxb-box {
+    float: left;
+    overflow: hidden;
+    width: 483px;
+    background: #f2f2f2;
+    position: relative;
+    left: 483px;
+}
+.cartoon {
+    width: 235px;
+    background: #fff;
+    height: 253px;
+    margin: 27px auto 21px;
+}
+.cpy-info-box {
+    width: 260px;
+    margin: 0 auto 19px;
+}
+.cpy-info {
+    color: #666;
+    font-size: 14px;
+    line-height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 35px;
+}
+.cpy-tel {
+    padding-left: 23px;
+    background: url(../pic/midPage/tel.png) 0 center no-repeat;
+}
+.cpy-url {
+    padding-left: 23px;
+    background: url(../pic/midPage/url.png) 0 center no-repeat;
+}
+.cpy-info a {
+    color: #666;
+    text-decoration: none;
+}
+.cpy-underline {
+    height: 1px;
+    line-height: 1px;
+    background: #d9d9d9;
+}
+.lxb-box-in {
+    margin: 62px auto auto 49px;
+}
+.lxb-input .title {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.input-box {
+    margin-bottom: 14px;
+}
+.input-box  input {
+    height: 45px;
+    width: 314px;
+    line-height: 45px;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.input-button input {
+    height: 46px;
+    width: 334px;
+    line-height: 46px;
+    background: #31a0ff;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.feedback-tip {
+    min-height: 51px;
+    word-break: break-all;
+}
+.lxb-tip {
+    margin: 10px 0;
+}
+.lxb-tip .title {
+    font-size: 16px;
+    color: #565656;
+    font-weight: 700;
+}
+.tip-box {
+    margin-top: 21px;
+}
+.tip-box p {
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.tipCon {
+    display: none;
+    margin: 10px 0;
+    width: 334px;
+    font-size: 14px;
+}
+
+.tipSucc {
+    color: #16bd51;
+}
+
+.tipFail {
+    color: #e71c4a;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.footer {
+    clear: left;
+    width: 826px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 200%;
+}
+/*验证码浮层*/
+#mid-scodeLayer {
+    background: url(../pic/midPage/scode.png) 0 0 no-repeat;
+    width: 324px;
+    height: 228px;
+    position: absolute;
+    z-index: 100;
+    overflow: hidden;
+}
+.close {
+    position: absolute;
+    right: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.box-line {
+    overflow: hidden;
+}
+#mid-scodeLayer input {
+    background: #e3e1df;
+    height: 45px;
+    line-height: 45px;
+    width: 180px;
+    border: 0;
+    padding-left: 5px;
+    font-size: 14px;
+    float: left;
+}
+#mid-scodeLayer img {
+    width: 80px;
+    height: 44px;
+    border: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    float: left;
+}
+
+.error-tip {
+    height: 29px;
+    line-height: 29px;
+    color: #f00;
+    font-size: 12px;
+}
+.layer-box {
+    clear: both;
+    margin: 0 auto;
+    padding-top: 78px;
+    width: 266px;
+
+}
+.layer-btn {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    height: 41px;
+    line-height: 41px;
+    border: 1px solid #3fb2e8;
+    padding: 0 42px;
+    color: #3fb2e8;
+    text-decoration: none;
+}
+.layer-btn-em {
+    background: #3fb2e8;
+    color: #fff;
+    margin-left: 28px;
+}
+
+#layer-mask {
+    background-color: #666;
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    -moz-opacity: .5;
+}

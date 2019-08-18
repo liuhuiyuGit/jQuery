@@ -1,0 +1,47 @@
+*,::before,::after,ul,li,ol,input,img,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    list-style: none;
+    vertical-align: middle;
+    font-weight: normal;
+    line-height: 100%;
+
+}
+body {
+    font-size: 14px;
+    font-family:"microsoft yahei", sans-serif;
+    color: #333;
+}
+a {
+    color: #333;
+    text-decoration:none;
+}
+a:hover {
+    text-decoration: none;
+
+}
+input {
+    border: none;
+    outline-style: none;
+    -webkit-appearance: none;
+}
+.left {
+  float: left;
+  
+}
+.right {
+    float: right;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.clearfix {
+     zoom: 1;
+}

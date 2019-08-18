@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            margin: 30px auto;
+            position: relative;
+            perspective: 1000px
+        }
+        .box div{
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+        }
+        .box_1{
+            position:absolute;
+            right: 0;
+        }
+        .bt1{
+            animation: move linear 0.5s
+        }
+        .bt2{
+            animation: move linear 0.5s 0.5s
+        }
+        .bt3{
+            animation: move linear 0.5s 1s
+        }
+        @keyframes move{
+            0%{
+                transform:translateZ(0px)
+            }
+            80%{
+                transform: translateZ(200px)
+            }
+            100%{
+                transform: translateZ(0px)
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box_1"></div>
+    </div>
+    <div class="box">
+        <div class="box_2"></div>
+    </div>
+    <div class="box">
+        <div class="box_3"></div>
+    </div>
+    <script src="./jquery-1.12.4.min.js"></script>
+    <script>
+        var $bt1=$('.box_1')
+        var $bt2=$('.box_2')
+        var $bt3=$('.box_3')
+        var $box1=$bt1.parent()
+        setInterval(function(){
+            $bt1.toggleClass('bt1')
+            $bt2.toggleClass('bt2')
+            $bt3.toggleClass('bt3')
+        },3000)
+
+        $box1.on('mouseenter',function(){
+            $bt1.stop().animate({
+                width:200
+            },200)
+        }).children().on('mouseleave',function(){
+            $(this).stop().animate({
+                width:100
+            },200)
+        })
+    </script>
+</body>
+</html>

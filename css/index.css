@@ -1,0 +1,284 @@
+body,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+a {
+  background: none;
+  text-decoration: none;
+  color: white;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 64px!important;
+  }
+}
+@media screen and (max-width: 1919px) {
+  html {
+    font-size: 10rem;
+  }
+}
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 192px!important;
+  }
+}
+@media screen and (max-width: 800px) {
+  html .lis li {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 3.60416667rem;
+  }
+  html .glopicbot {
+    width: 100%;
+  }
+  html .tupian {
+    width: 100%;
+    height: 4.25520833rem;
+    background: url("../images/bg2a.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+}
+.great {
+  width: 10rem;
+  margin: 0 auto;
+}
+.banner {
+  height: 4.63541667rem;
+  position: relative;
+}
+.indlogo {
+  width: 0.74479167rem;
+  height: 0.42708333rem;
+  position: absolute;
+  left: 0.20833333rem;
+  top: 0.26041667rem;
+  z-index: 6;
+}
+.indlogo img {
+  width: 100%;
+  height: 100%;
+}
+.indnumber {
+  position: absolute;
+  font-size: 0.234375rem;
+  right: 0.10416667rem;
+  top: 0.18229167rem;
+}
+.pics {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.pics li {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.pics .current {
+  display: block;
+}
+.pics img {
+  width: 100%;
+  height: 4.63541667rem;
+  margin: 0 auto;
+}
+.circle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0.26041667rem;
+  z-index: 5;
+}
+.circle li {
+  width: 0.10416667rem;
+  height: 0.10416667rem;
+  background-color: white;
+  float: left;
+  margin: 0 0.05208333rem;
+  border-radius: 50%;
+}
+.circle li:first-child {
+  background-color: #00f0ff ;
+}
+.vector {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0.18229167rem;
+  width: 2.08333333rem;
+  z-index: 4;
+}
+.vector li {
+  height: 0.25rem;
+  width: 0.47916667rem;
+}
+.vector li img {
+  width: 100%;
+  height: 100%;
+}
+.vector .lli {
+  float: left;
+}
+.vector .rli {
+  float: right;
+}
+.nav {
+  position: absolute;
+  right: 0;
+  top: 0.26041667rem;
+  z-index: 5;
+  font-size: 0.10416667rem;
+  opacity: 0;
+}
+.nav li {
+  height: 0.13020833rem;
+  line-height: 0.15625rem;
+  float: left;
+  margin-right: 0.41666667rem;
+  font-size: 0.13541667rem;
+}
+.nav li :hover {
+  font-size: 0.15625rem;
+  text-shadow: 0.03125rem 0.02083333rem 0.04166667rem rgba(0, 0, 0, 0.5);
+}
+.nav li:last-child {
+  margin-right: 0.72916667rem;
+}
+.lis {
+  width: 100%;
+  background-color: black;
+}
+.lis li {
+  position: relative;
+  float: left;
+  width: 25%;
+  height: 1.80208333rem;
+  opacity: 0.6;
+  overflow: hidden;
+}
+.lis li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.lis li :hover img {
+  width: 120%;
+  height: 120%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.glopicbot {
+  width: 100%;
+}
+.tupian {
+  width: 50%;
+  height: 4.25520833rem;
+  background: url("../images/bg2a.jpg") no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+.tupian .opcircle {
+  position: absolute;
+  width: 2.55208333rem;
+  height: 2.55208333rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.tupian .opcircle img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.wcircle {
+  position: absolute;
+  width: 3.08854167rem;
+  height: 3.08854167rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.wcircle div {
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 0.3125rem;
+  height: 0.3125rem;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  font-size: 0.0625rem;
+  line-height: 0.10416667rem;
+}
+.wcircle div a {
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #339aca;
+}
+.wcircle div:nth-child(1) {
+  left: 0.52083333rem;
+  top: 1rem;
+}
+.wcircle div:nth-child(2) {
+  left: 2.05729167rem;
+  top: 1.171875rem;
+}
+.wcircle div:nth-child(3) {
+  left: 2.60416667rem;
+  top: 0.52083333rem;
+}
+.wcircle div:nth-child(4) {
+  left: 0.80208333rem;
+  top: 2.44791667rem;
+}
+.wcircle div:nth-child(5) {
+  left: 0.10416667rem;
+  top: 2.08333333rem;
+  width: 0;
+  height: 0;
+}
+.wcircle div:nth-child(6) {
+  left: 2.39583333rem;
+  top: 2.70833333rem;
+}
+.wcircle div:nth-child(7) {
+  width: 0;
+  left: 3.07291667rem;
+  top: 1.77083333rem;
+  height: 0;
+}

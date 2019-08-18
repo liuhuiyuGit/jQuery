@@ -1,0 +1,45 @@
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 64px !important;
+  }
+}
+.foot {
+  height: 200px;
+  width: 100%;
+  background-color: #1f323f;
+  padding: 0.46875rem 0;
+}
+.foot ul {
+  width: 8.07291667rem;
+  margin: 0 auto;
+}
+.foot ul h2 {
+  font-size: 0.3125rem;
+  color: #27bec9;
+}
+.foot ul li {
+  float: left;
+}
+.foot ul li:nth-child(2) {
+  width: 2.421875rem;
+  margin-right: 0.78125rem;
+}
+.foot ul li:nth-child(3) {
+  width: 2.421875rem;
+  margin-right: 0.3125rem;
+}
+.foot ul li p {
+  color: #fff;
+  font-size: 0.07291667rem;
+  margin-bottom: 0.10416667rem;
+  margin-top: 0.05208333rem;
+}
+.foot ul li p a {
+  color: #fff;
+}
+.foot ul li h3,
+.foot ul li h4 {
+  font-size: 0.20833333rem;
+  color: #fff;
+  font-weight: normal;
+}

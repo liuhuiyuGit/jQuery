@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #bbig{
+            width: 60px;
+            height: 182px;
+            position: fixed;
+            right: 10px;
+            top: 30%;
+        }
+        .box_box{
+            width: 60px;
+            height: 60px;
+            margin-bottom: 1px;
+            perspective: 1000px;
+        }
+        .iconfont{
+            font-size: 38px!important;
+            color: white;
+            width: 60px;
+            height: 60px;
+            background-color: rgb(44,189,197);
+            border-radius: 5px;
+            line-height: 60px;
+            text-align: center;
+
+        }
+        .dianhua{
+            position: absolute;
+            right: 0;
+        }
+        .self1{
+            animation: ds 0.5s 0s;
+        }
+        .self2{
+            animation: ds 0.5s 0.5s;
+        }
+        .self3{
+            animation: ds 0.5s 1s;
+        }
+        @keyframes ds {
+            0%{
+                transform: translateZ(0px)
+            }
+            80%{
+                transform: translateZ(100px)
+            }
+            100%{
+                transform: translateZ(0)
+            }
+        }
+        #bbig span{
+            font-size: 30px;
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            vertical-align: middle
+        }
+    </style>
+    <link rel="stylesheet" href="./css/iconfont.css">
+</head>
+<body>
+    <div id="bbig">
+            <!-- http://127.0.0.1:3005/ -->
+        <div class="box_box">
+            <div class="iconfont dianhua">&nbsp;&#xe752;&nbsp;<span>400-999-6666</span></div>
+        </div>
+        <div class="box_box">
+            <div class="iconfont icon-kefu"></div>
+        </div>
+        <div class="box_box">
+            <div class="iconfont icon-ico"></div>
+        </div>
+    </div>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script>
+        var $dianhua=$('.dianhua')
+        var $kefu=$('.icon-kefu')
+        var $ico=$('.icon-ico')
+        $dianhua.on('mouseenter',function(){
+            $(this).css({
+                cursor:'pointer'
+            })
+            $(this).stop().animate({
+                width:270
+            },200)
+        }).on('mouseleave',function(){
+            $(this).stop().animate({
+                width:60,
+            },200)
+        }).on('click',function(){
+            window.open('./分页.html','_blank',)
+        })
+        setInterval(function(){
+            $dianhua.toggleClass('self1')
+            $kefu.toggleClass('self2')
+            $ico.toggleClass('self3')
+        },3000)
+    </script>
+</body>
+</html>

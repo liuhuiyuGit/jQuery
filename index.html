@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- <link rel="stylesheet" href="./css/bootstrap.min.css"> -->
+    <script src="./js/flexible.js"></script>
+    <link rel="stylesheet" href="./css/foot.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="css/css/index.css">
+
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/indexbot.js"></script>
+    <script src="./js/hm.js"></script>
+
+    <style>
+        #bbig {
+            width: 60px;
+            height: 182px;
+            position: fixed;
+            right: 10px;
+            top: 30%;
+        }
+
+        .box_box {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 1px;
+            perspective: 1000px;
+        }
+
+        .iconfont {
+            font-size: 38px !important;
+            color: white;
+            width: 60px;
+            height: 60px;
+            background-color: rgb(44, 189, 197);
+            border-radius: 5px;
+            line-height: 60px;
+            text-align: center;
+
+        }
+
+        .dianhua {
+            position: absolute;
+            right: 0;
+        }
+
+        .self1 {
+            animation: ds 0.5s 0s;
+        }
+
+        .self2 {
+            animation: ds 0.5s 0.5s;
+        }
+
+        .self3 {
+            animation: ds 0.5s 1s;
+        }
+
+        @keyframes ds {
+            0% {
+                transform: translateZ(0px)
+            }
+
+            80% {
+                transform: translateZ(100px)
+            }
+
+            100% {
+                transform: translateZ(0)
+            }
+        }
+
+        #bbig span {
+            font-size: 30px;
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            vertical-align: middle;
+            opacity: 0;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="great">
+
+        <div class="banner" id="banner1">
+
+            <ul class="pics" id="picsd">
+                <li class="current">
+                    <a href=""><img src="./img/banner1.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="./img/banner2.jpg" alt=""></a>
+                </li>
+                <li>
+                    <a href=""><img src="./img/banner3.jpg" alt=""></a>
+                </li>
+            </ul>
+            <ul class="circle" id="circleid">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="vector" id="vectorid">
+                <li class="lli"> <img src="./img/l.png" width="92" height="24" alt=""></li>
+                <li class="rli"> <img src="./img/r.png" width="92" height="24" alt=""></li>
+
+            </ul>
+            <ul class="nav">
+                <li><a href="">首页</a></li>
+                <li><a href="./subPage/service/service.html" target="blank">服务</a></li>
+                <li><a href="./subPage/case/case.html" target="blank">案例</a></li>
+                <li><a href="./subPage/cyclopage/index.html" target="blank">百科</a></li>
+                <li><a href="./subPage/about/about.html" target="blank">关于</a></li>
+            </ul>
+            <div class="indlogo">
+                <a href=""><img src="./images/s5ab37e760fd26.png" alt=""></a>
+            </div>
+            <div class="indnumber">
+                <span>400-999-6666</span>
+
+            </div>
+
+
+
+        </div>
+
+        <ul class="lis clearfix" id="botul">
+            <li>
+                <a href=""><img src="./images/1.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/2.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/3.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/4.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/5.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/6.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/7.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/8.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/9.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/10.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/11.jpg" alt=""></a>
+            </li>
+            <li>
+                <a href=""><img src="./images/12.jpg" alt=""></a>
+            </li>
+
+        </ul>
+
+
+
+        <div class="smallicon clearfix">
+            <div class="lefticon">
+                <div class="pos">
+                    <ul>
+                        <li><a href="#">响应当道<br>统一形象</a></li>
+                        <li><a href="#">超速加载拒绝等待</a></li>
+                        <li><a href="#">流畅的交互效果</a></li>
+                        <li><a href="#">酷炫H5无需插件</a></li>
+                        <li><a href="#">同步数据一键搞定</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#"></a></li>
+                    </ul>
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="righticon">
+                <ul class="rticon_bg">
+                    <li class="clearfix">
+                        <div class="rticon"><img src="./img/icon2_1.png" alt=""></div>
+                        <div class="rtcontent">
+                            <h2>高端定制网站建设</h2>
+                            <p>品牌官网·集团网站·营销型网站·响应式网站建设·电子商务平台·业务系统定制</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="rticon"><img src="./img/icon2_2.png" alt=""></div>
+                        <div class="rtcontent">
+                            <h2>高端定制网站建设</h2>
+                            <p>品牌官网·集团网站·营销型网站·响应式网站建设·电子商务平台·业务系统定制</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="rticon"><img src="./img/icon2_3.png" alt=""></div>
+                        <div class="rtcontent">
+                            <h2>高端定制网站建设</h2>
+                            <p>品牌官网·集团网站·营销型网站·响应式网站建设·电子商务平台·业务系统定制</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="rticon"><img src="./img/icon2_4.png" alt=""></div>
+                        <div class="rtcontent">
+                            <h2>高端定制网站建设</h2>
+                            <p>品牌官网·集团网站·营销型网站·响应式网站建设·电子商务平台·业务系统定制</p>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <div class="rticon"><img src="./img/icon2_5.png" alt=""></div>
+                        <div class="rtcontent">
+                            <h2>高端定制网站建设</h2>
+                            <p>品牌官网·集团网站·营销型网站·响应式网站建设·电子商务平台·业务系统定制</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- 新闻资讯区域 -->
+        <div class="new_consult">
+            <ul class="clearfix">
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>12</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>网站抽奖系统数据库设计方案</h3>
+                            <p>现在很多网站都会有抽奖系统，那么抽奖系统是怎么设计的呢，下面我们就来说说：</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>11</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>学校宿舍管理系统和人事系统的结构设计方案</h3>
+                            <p>学生宿舍管理系统的结构设计：1.E-R图向关系模型的转换。学生表：学号、姓名、性别、专业班级、联系方式 主码：学号</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>10</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>解决html5网页中video标签无法播放的方法</h3>
+                            <p>为什么我录制的MP4视频在本地可以播放但是使用html5的video多媒体播放标签不能正常播放只有一个进度条而不显示图像？</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>09</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>php建设网站应注意的问题</h3>
+                            <p>把握整站的结构，避免泄露站点敏感目录，使用预编译语句，避免sql注入，预防XSS代码，如果不需要使用cookie就不使用。</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>08</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>android页面跳转和切换的方式</h3>
+                            <p>第一种方式，用action来跳转。1、使用Action跳转，如果有一个程序的
+                                AndroidManifest.xml中的某一个Activity的IntentFilter段中定义了包含了相同的Action那么这个Inten...</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>07</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>企业定制网站建设的流程</h3>
+                            <p>企业定制网站建设的大致流程：业务员与客户进行沟通，包括：网站风格、功能（论坛、留言板、支付、用户登录等）。业务员与美工沟通。制作网页效果图（首页、列表页、内容页）。</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>06</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>企业网站建设的层次和价格问题</h3>
+                            <p>企业网站建设的层次根据不同的用途分为不同层次，价格也受到很多因素的影响不尽相同。</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="clearfix">
+                    <a href="#">
+                        <div class="new_title left">
+                            <span>2019-05</span>
+                            <strong>04</strong>
+                        </div>
+                        <div class="left new_content">
+                            <h3>公司网站设计优化的目的</h3>
+                            <p>根据我个人对网站策划建设、运营维护，以及为了网站推广的目的进行搜索引擎优化的体会，我总结出有关网站优化的基本思想是：通过对网站功能、结构、布局、内容等关键要素的合理设计，使得网站的功能和表现形式达到最优效果，可以充分表现...
+                            </p>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+            <div class="new_more"><a href="#">READ MORE</a></div>
+        </div>
+
+
+        <!-- 底部区域 -->
+        <div class="foot">
+            <ul>
+                <h2>CONTACT</h2>
+                <li>
+                    <p>专注设计，并非自我陶醉；沉浸细节，亦非
+                        锱铢必较；倾注心血于每一个作品，只为打动默默付出的我和停留于此的你</p>
+                    <p>版权所有：17建站 京ICP备14024000号-1<br>
+                        Copyright 2010 www.4miao.net all rights reserved|站长统计 深圳网站建设</p>
+                </li>
+                <li>
+                    <p>ADD：深圳市朝阳区惠新东街6号深圳乡镇企业大厦9层<br>TEL：400-999-6666<br>
+                        <a href="#">E-mail：YUDY@4miao.net</a><br><a href="#">网站地图</a></a></p>
+                    <p><img src="./img/ghs.png">京公网安备 11010502032897号</p>
+                </li>
+                <li>
+                    <h3>400-999-6666</h4>
+                        <h4>010-64929332</h4>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <div id="bbig">
+        <!-- http://127.0.0.1:3005/ -->
+        <div class="box_box">
+            <div class="iconfont dianhua">&nbsp;&#xe752;&nbsp;<span>400-999-6666</span></div>
+        </div>
+        <div class="box_box">
+            <div class="iconfont icon-kefu"></div>
+        </div>
+        <div class="box_box">
+            <div class="iconfont icon-ico"></div>
+        </div>
+    </div>
+    <script>
+        var $dianhua=$('.dianhua')
+        var $kefu=$('.icon-kefu')
+        var $ico=$('.icon-ico')
+        $dianhua.on('mouseenter',function(){
+            $(this).css({
+                cursor:'pointer'
+            })
+            $(this).stop().animate({
+                width:270,
+            },200)
+            $(this).children().stop().animate({
+                opacity:1
+            },0)
+        }).on('mouseleave',function(){
+            $(this).stop().animate({
+                width:60,
+            },200)
+            $(this).children().stop().animate({
+                opacity:0
+            },0)
+        }).on('click',function(){
+            window.open('./subPage/abl/分页.html','_blank',)
+        })
+        setInterval(function(){
+            $dianhua.toggleClass('self1')
+            $kefu.toggleClass('self2')
+            $ico.toggleClass('self3')
+        },3000)
+    </script>
+</body>
+
+</html>
